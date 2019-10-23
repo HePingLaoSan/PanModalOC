@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4070CA842360183600A13B31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4070CA832360183600A13B31 /* AppDelegate.m */; };
+		4070CA872360183600A13B31 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4070CA862360183600A13B31 /* SceneDelegate.m */; };
+		4070CA8A2360183600A13B31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4070CA892360183600A13B31 /* ViewController.m */; };
+		4070CA8D2360183600A13B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4070CA8B2360183600A13B31 /* Main.storyboard */; };
+		4070CA8F2360183800A13B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4070CA8E2360183800A13B31 /* Assets.xcassets */; };
+		4070CA922360183800A13B31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4070CA902360183800A13B31 /* LaunchScreen.storyboard */; };
+		4070CA952360183800A13B31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4070CA942360183800A13B31 /* main.m */; };
+		4070CA9F2360183800A13B31 /* PulleyOCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4070CA9E2360183800A13B31 /* PulleyOCDemoTests.m */; };
+		4070CAAA2360183800A13B31 /* PulleyOCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4070CAA92360183800A13B31 /* PulleyOCDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4070CA9B2360183800A13B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4070CA772360183600A13B31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4070CA7E2360183600A13B31;
+			remoteInfo = PulleyOCDemo;
+		};
+		4070CAA62360183800A13B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4070CA772360183600A13B31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4070CA7E2360183600A13B31;
+			remoteInfo = PulleyOCDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4070CA7F2360183600A13B31 /* PulleyOCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulleyOCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4070CA822360183600A13B31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4070CA832360183600A13B31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4070CA852360183600A13B31 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4070CA862360183600A13B31 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4070CA882360183600A13B31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4070CA892360183600A13B31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4070CA8C2360183600A13B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4070CA8E2360183800A13B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4070CA912360183800A13B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4070CA932360183800A13B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4070CA942360183800A13B31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4070CA9A2360183800A13B31 /* PulleyOCDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulleyOCDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4070CA9E2360183800A13B31 /* PulleyOCDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PulleyOCDemoTests.m; sourceTree = "<group>"; };
+		4070CAA02360183800A13B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4070CAA52360183800A13B31 /* PulleyOCDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulleyOCDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4070CAA92360183800A13B31 /* PulleyOCDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PulleyOCDemoUITests.m; sourceTree = "<group>"; };
+		4070CAAB2360183800A13B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4070CA7C2360183600A13B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4070CA972360183800A13B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4070CAA22360183800A13B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4070CA762360183600A13B31 = {
+			isa = PBXGroup;
+			children = (
+				4070CA812360183600A13B31 /* PulleyOCDemo */,
+				4070CA9D2360183800A13B31 /* PulleyOCDemoTests */,
+				4070CAA82360183800A13B31 /* PulleyOCDemoUITests */,
+				4070CA802360183600A13B31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4070CA802360183600A13B31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4070CA7F2360183600A13B31 /* PulleyOCDemo.app */,
+				4070CA9A2360183800A13B31 /* PulleyOCDemoTests.xctest */,
+				4070CAA52360183800A13B31 /* PulleyOCDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4070CA812360183600A13B31 /* PulleyOCDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4070CA822360183600A13B31 /* AppDelegate.h */,
+				4070CA832360183600A13B31 /* AppDelegate.m */,
+				4070CA852360183600A13B31 /* SceneDelegate.h */,
+				4070CA862360183600A13B31 /* SceneDelegate.m */,
+				4070CA882360183600A13B31 /* ViewController.h */,
+				4070CA892360183600A13B31 /* ViewController.m */,
+				4070CA8B2360183600A13B31 /* Main.storyboard */,
+				4070CA8E2360183800A13B31 /* Assets.xcassets */,
+				4070CA902360183800A13B31 /* LaunchScreen.storyboard */,
+				4070CA932360183800A13B31 /* Info.plist */,
+				4070CA942360183800A13B31 /* main.m */,
+			);
+			path = PulleyOCDemo;
+			sourceTree = "<group>";
+		};
+		4070CA9D2360183800A13B31 /* PulleyOCDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4070CA9E2360183800A13B31 /* PulleyOCDemoTests.m */,
+				4070CAA02360183800A13B31 /* Info.plist */,
+			);
+			path = PulleyOCDemoTests;
+			sourceTree = "<group>";
+		};
+		4070CAA82360183800A13B31 /* PulleyOCDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4070CAA92360183800A13B31 /* PulleyOCDemoUITests.m */,
+				4070CAAB2360183800A13B31 /* Info.plist */,
+			);
+			path = PulleyOCDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4070CA7E2360183600A13B31 /* PulleyOCDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4070CAAE2360183800A13B31 /* Build configuration list for PBXNativeTarget "PulleyOCDemo" */;
+			buildPhases = (
+				4070CA7B2360183600A13B31 /* Sources */,
+				4070CA7C2360183600A13B31 /* Frameworks */,
+				4070CA7D2360183600A13B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PulleyOCDemo;
+			productName = PulleyOCDemo;
+			productReference = 4070CA7F2360183600A13B31 /* PulleyOCDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4070CA992360183800A13B31 /* PulleyOCDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4070CAB12360183800A13B31 /* Build configuration list for PBXNativeTarget "PulleyOCDemoTests" */;
+			buildPhases = (
+				4070CA962360183800A13B31 /* Sources */,
+				4070CA972360183800A13B31 /* Frameworks */,
+				4070CA982360183800A13B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4070CA9C2360183800A13B31 /* PBXTargetDependency */,
+			);
+			name = PulleyOCDemoTests;
+			productName = PulleyOCDemoTests;
+			productReference = 4070CA9A2360183800A13B31 /* PulleyOCDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4070CAA42360183800A13B31 /* PulleyOCDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4070CAB42360183800A13B31 /* Build configuration list for PBXNativeTarget "PulleyOCDemoUITests" */;
+			buildPhases = (
+				4070CAA12360183800A13B31 /* Sources */,
+				4070CAA22360183800A13B31 /* Frameworks */,
+				4070CAA32360183800A13B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4070CAA72360183800A13B31 /* PBXTargetDependency */,
+			);
+			name = PulleyOCDemoUITests;
+			productName = PulleyOCDemoUITests;
+			productReference = 4070CAA52360183800A13B31 /* PulleyOCDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4070CA772360183600A13B31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "张英杰";
+				TargetAttributes = {
+					4070CA7E2360183600A13B31 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					4070CA992360183800A13B31 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 4070CA7E2360183600A13B31;
+					};
+					4070CAA42360183800A13B31 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 4070CA7E2360183600A13B31;
+					};
+				};
+			};
+			buildConfigurationList = 4070CA7A2360183600A13B31 /* Build configuration list for PBXProject "PulleyOCDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4070CA762360183600A13B31;
+			productRefGroup = 4070CA802360183600A13B31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4070CA7E2360183600A13B31 /* PulleyOCDemo */,
+				4070CA992360183800A13B31 /* PulleyOCDemoTests */,
+				4070CAA42360183800A13B31 /* PulleyOCDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4070CA7D2360183600A13B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4070CA922360183800A13B31 /* LaunchScreen.storyboard in Resources */,
+				4070CA8F2360183800A13B31 /* Assets.xcassets in Resources */,
+				4070CA8D2360183600A13B31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4070CA982360183800A13B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4070CAA32360183800A13B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4070CA7B2360183600A13B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4070CA8A2360183600A13B31 /* ViewController.m in Sources */,
+				4070CA842360183600A13B31 /* AppDelegate.m in Sources */,
+				4070CA952360183800A13B31 /* main.m in Sources */,
+				4070CA872360183600A13B31 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4070CA962360183800A13B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4070CA9F2360183800A13B31 /* PulleyOCDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4070CAA12360183800A13B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4070CAAA2360183800A13B31 /* PulleyOCDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4070CA9C2360183800A13B31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4070CA7E2360183600A13B31 /* PulleyOCDemo */;
+			targetProxy = 4070CA9B2360183800A13B31 /* PBXContainerItemProxy */;
+		};
+		4070CAA72360183800A13B31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4070CA7E2360183600A13B31 /* PulleyOCDemo */;
+			targetProxy = 4070CAA62360183800A13B31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4070CA8B2360183600A13B31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4070CA8C2360183600A13B31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4070CA902360183800A13B31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4070CA912360183800A13B31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4070CAAC2360183800A13B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4070CAAD2360183800A13B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4070CAAF2360183800A13B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HUW3H8NBU9;
+				INFOPLIST_FILE = PulleyOCDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hha.PulleyOCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4070CAB02360183800A13B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HUW3H8NBU9;
+				INFOPLIST_FILE = PulleyOCDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hha.PulleyOCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4070CAB22360183800A13B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HUW3H8NBU9;
+				INFOPLIST_FILE = PulleyOCDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hha.PulleyOCDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulleyOCDemo.app/PulleyOCDemo";
+			};
+			name = Debug;
+		};
+		4070CAB32360183800A13B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HUW3H8NBU9;
+				INFOPLIST_FILE = PulleyOCDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hha.PulleyOCDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulleyOCDemo.app/PulleyOCDemo";
+			};
+			name = Release;
+		};
+		4070CAB52360183800A13B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HUW3H8NBU9;
+				INFOPLIST_FILE = PulleyOCDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hha.PulleyOCDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PulleyOCDemo;
+			};
+			name = Debug;
+		};
+		4070CAB62360183800A13B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HUW3H8NBU9;
+				INFOPLIST_FILE = PulleyOCDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hha.PulleyOCDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PulleyOCDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4070CA7A2360183600A13B31 /* Build configuration list for PBXProject "PulleyOCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4070CAAC2360183800A13B31 /* Debug */,
+				4070CAAD2360183800A13B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4070CAAE2360183800A13B31 /* Build configuration list for PBXNativeTarget "PulleyOCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4070CAAF2360183800A13B31 /* Debug */,
+				4070CAB02360183800A13B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4070CAB12360183800A13B31 /* Build configuration list for PBXNativeTarget "PulleyOCDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4070CAB22360183800A13B31 /* Debug */,
+				4070CAB32360183800A13B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4070CAB42360183800A13B31 /* Build configuration list for PBXNativeTarget "PulleyOCDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4070CAB52360183800A13B31 /* Debug */,
+				4070CAB62360183800A13B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4070CA772360183600A13B31 /* Project object */;
+}
