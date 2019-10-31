@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4070CA842360183600A13B31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4070CA832360183600A13B31 /* AppDelegate.m */; };
+		4070CA872360183600A13B31 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4070CA862360183600A13B31 /* SceneDelegate.m */; };
+		4070CA8A2360183600A13B31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4070CA892360183600A13B31 /* ViewController.m */; };
+		4070CA8D2360183600A13B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4070CA8B2360183600A13B31 /* Main.storyboard */; };
+		4070CA8F2360183800A13B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4070CA8E2360183800A13B31 /* Assets.xcassets */; };
+		4070CA922360183800A13B31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4070CA902360183800A13B31 /* LaunchScreen.storyboard */; };
+		4070CA952360183800A13B31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4070CA942360183800A13B31 /* main.m */; };
+		4070CA9F2360183800A13B31 /* PulleyOCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4070CA9E2360183800A13B31 /* PulleyOCDemoTests.m */; };
+		4070CAAA2360183800A13B31 /* PulleyOCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4070CAA92360183800A13B31 /* PulleyOCDemoUITests.m */; };
+		40C9229F23697CB30042C956 /* PanModalPresentationAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C9229E23697CB30042C956 /* PanModalPresentationAnimator.m */; };
+		40C922A323697E620042C956 /* PanModalPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C922A223697E620042C956 /* PanModalPresentationController.m */; };
+		40D9D6DB236994C5005231AC /* DimmingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C922AB2369916B0042C956 /* DimmingView.m */; };
+		40D9D6DE23699589005231AC /* PanContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D9D6DD23699589005231AC /* PanContainerView.m */; };
+		40D9D6E12369970E005231AC /* PanModalAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D9D6E02369970E005231AC /* PanModalAnimator.m */; };
+		40D9D6E4236997B8005231AC /* UIViewController+PanModalPresentable.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D9D6E3236997B8005231AC /* UIViewController+PanModalPresentable.m */; };
+		40D9D6E72369C160005231AC /* UIView+panContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D9D6E62369C160005231AC /* UIView+panContainerView.m */; };
+		40D9D6EB236A739C005231AC /* UIViewController+PanModalPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D9D6EA236A739C005231AC /* UIViewController+PanModalPresenter.m */; };
+		40D9D6EE236A75A5005231AC /* PanModalPresentationDelegateImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D9D6ED236A75A5005231AC /* PanModalPresentationDelegateImp.m */; };
+		40D9D6F1236A7BF7005231AC /* UIViewController+LayoutHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D9D6F0236A7BF7005231AC /* UIViewController+LayoutHelper.m */; };
+		40D9D6F7236A8A9C005231AC /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D9D6F4236A8A5E005231AC /* BaseViewController.m */; };
+		40D9D6FB236A8B6A005231AC /* FullScreenNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D9D6FA236A8B6A005231AC /* FullScreenNavController.m */; };
+		40D9D6FE236A8DC9005231AC /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D9D6FD236A8DC9005231AC /* SampleViewController.m */; };
+		40D9D701236A98E2005231AC /* UIViewController+Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D9D700236A98E2005231AC /* UIViewController+Defaults.m */; };
+		40D9D706236AAB0C005231AC /* UserGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D9D705236AAB0C005231AC /* UserGroupViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4070CA9B2360183800A13B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4070CA772360183600A13B31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4070CA7E2360183600A13B31;
+			remoteInfo = PulleyOCDemo;
+		};
+		4070CAA62360183800A13B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4070CA772360183600A13B31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4070CA7E2360183600A13B31;
+			remoteInfo = PulleyOCDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4070CA7F2360183600A13B31 /* PanModalOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanModalOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4070CA822360183600A13B31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4070CA832360183600A13B31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4070CA852360183600A13B31 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4070CA862360183600A13B31 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4070CA882360183600A13B31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4070CA892360183600A13B31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4070CA8C2360183600A13B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4070CA8E2360183800A13B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4070CA912360183800A13B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4070CA932360183800A13B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4070CA942360183800A13B31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4070CA9A2360183800A13B31 /* PanModalOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanModalOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4070CA9E2360183800A13B31 /* PulleyOCDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PulleyOCDemoTests.m; sourceTree = "<group>"; };
+		4070CAA02360183800A13B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4070CAA52360183800A13B31 /* PanModalOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanModalOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4070CAA92360183800A13B31 /* PulleyOCDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PulleyOCDemoUITests.m; sourceTree = "<group>"; };
+		4070CAAB2360183800A13B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C9229D23697CB30042C956 /* PanModalPresentationAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanModalPresentationAnimator.h; sourceTree = "<group>"; };
+		40C9229E23697CB30042C956 /* PanModalPresentationAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanModalPresentationAnimator.m; sourceTree = "<group>"; };
+		40C922A123697E620042C956 /* PanModalPresentationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanModalPresentationController.h; sourceTree = "<group>"; };
+		40C922A223697E620042C956 /* PanModalPresentationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanModalPresentationController.m; sourceTree = "<group>"; };
+		40C922A7236985A10042C956 /* PanModalPresentable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanModalPresentable.h; sourceTree = "<group>"; };
+		40C922A8236986940042C956 /* PanModalHeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanModalHeight.h; sourceTree = "<group>"; };
+		40C922AA2369916B0042C956 /* DimmingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DimmingView.h; sourceTree = "<group>"; };
+		40C922AB2369916B0042C956 /* DimmingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DimmingView.m; sourceTree = "<group>"; };
+		40D9D6DC23699589005231AC /* PanContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanContainerView.h; sourceTree = "<group>"; };
+		40D9D6DD23699589005231AC /* PanContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanContainerView.m; sourceTree = "<group>"; };
+		40D9D6DF2369970E005231AC /* PanModalAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanModalAnimator.h; sourceTree = "<group>"; };
+		40D9D6E02369970E005231AC /* PanModalAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanModalAnimator.m; sourceTree = "<group>"; };
+		40D9D6E2236997B8005231AC /* UIViewController+PanModalPresentable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PanModalPresentable.h"; sourceTree = "<group>"; };
+		40D9D6E3236997B8005231AC /* UIViewController+PanModalPresentable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PanModalPresentable.m"; sourceTree = "<group>"; };
+		40D9D6E52369C160005231AC /* UIView+panContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+panContainerView.h"; sourceTree = "<group>"; };
+		40D9D6E62369C160005231AC /* UIView+panContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+panContainerView.m"; sourceTree = "<group>"; };
+		40D9D6E9236A739C005231AC /* UIViewController+PanModalPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PanModalPresenter.h"; sourceTree = "<group>"; };
+		40D9D6EA236A739C005231AC /* UIViewController+PanModalPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PanModalPresenter.m"; sourceTree = "<group>"; };
+		40D9D6EC236A75A5005231AC /* PanModalPresentationDelegateImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanModalPresentationDelegateImp.h; sourceTree = "<group>"; };
+		40D9D6ED236A75A5005231AC /* PanModalPresentationDelegateImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanModalPresentationDelegateImp.m; sourceTree = "<group>"; };
+		40D9D6EF236A7BF7005231AC /* UIViewController+LayoutHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LayoutHelper.h"; sourceTree = "<group>"; };
+		40D9D6F0236A7BF7005231AC /* UIViewController+LayoutHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LayoutHelper.m"; sourceTree = "<group>"; };
+		40D9D6F3236A8A5E005231AC /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		40D9D6F4236A8A5E005231AC /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		40D9D6F9236A8B6A005231AC /* FullScreenNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FullScreenNavController.h; sourceTree = "<group>"; };
+		40D9D6FA236A8B6A005231AC /* FullScreenNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullScreenNavController.m; sourceTree = "<group>"; };
+		40D9D6FC236A8DC9005231AC /* SampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		40D9D6FD236A8DC9005231AC /* SampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
+		40D9D6FF236A98E2005231AC /* UIViewController+Defaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Defaults.h"; sourceTree = "<group>"; };
+		40D9D700236A98E2005231AC /* UIViewController+Defaults.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Defaults.m"; sourceTree = "<group>"; };
+		40D9D704236AAB0C005231AC /* UserGroupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserGroupViewController.h; sourceTree = "<group>"; };
+		40D9D705236AAB0C005231AC /* UserGroupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserGroupViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4070CA7C2360183600A13B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4070CA972360183800A13B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4070CAA22360183800A13B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4070CA762360183600A13B31 = {
+			isa = PBXGroup;
+			children = (
+				4070CA812360183600A13B31 /* PanModalOC */,
+				4070CA9D2360183800A13B31 /* PanModalOCTests */,
+				4070CAA82360183800A13B31 /* PanModalOCUITests */,
+				4070CA802360183600A13B31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4070CA802360183600A13B31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4070CA7F2360183600A13B31 /* PanModalOC.app */,
+				4070CA9A2360183800A13B31 /* PanModalOCTests.xctest */,
+				4070CAA52360183800A13B31 /* PanModalOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4070CA812360183600A13B31 /* PanModalOC */ = {
+			isa = PBXGroup;
+			children = (
+				40D9D6F2236A8A4D005231AC /* Sample */,
+				4070CAB72360184100A13B31 /* PanModal */,
+				4070CA822360183600A13B31 /* AppDelegate.h */,
+				4070CA832360183600A13B31 /* AppDelegate.m */,
+				4070CA852360183600A13B31 /* SceneDelegate.h */,
+				4070CA862360183600A13B31 /* SceneDelegate.m */,
+				4070CA882360183600A13B31 /* ViewController.h */,
+				4070CA892360183600A13B31 /* ViewController.m */,
+				4070CA8B2360183600A13B31 /* Main.storyboard */,
+				4070CA8E2360183800A13B31 /* Assets.xcassets */,
+				4070CA902360183800A13B31 /* LaunchScreen.storyboard */,
+				4070CA932360183800A13B31 /* Info.plist */,
+				4070CA942360183800A13B31 /* main.m */,
+			);
+			path = PanModalOC;
+			sourceTree = "<group>";
+		};
+		4070CA9D2360183800A13B31 /* PanModalOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				4070CA9E2360183800A13B31 /* PulleyOCDemoTests.m */,
+				4070CAA02360183800A13B31 /* Info.plist */,
+			);
+			path = PanModalOCTests;
+			sourceTree = "<group>";
+		};
+		4070CAA82360183800A13B31 /* PanModalOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4070CAA92360183800A13B31 /* PulleyOCDemoUITests.m */,
+				4070CAAB2360183800A13B31 /* Info.plist */,
+			);
+			path = PanModalOCUITests;
+			sourceTree = "<group>";
+		};
+		4070CAB72360184100A13B31 /* PanModal */ = {
+			isa = PBXGroup;
+			children = (
+				40C9229C23697C930042C956 /* Animator */,
+				40C922A023697E500042C956 /* Controller */,
+				40C922A423697E6C0042C956 /* Delegate */,
+				40C922A6236982320042C956 /* Presentable */,
+				40D9D6E82369C41D005231AC /* Presenter */,
+				40C922A9236991670042C956 /* View */,
+			);
+			path = PanModal;
+			sourceTree = "<group>";
+		};
+		40C9229C23697C930042C956 /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				40D9D6DF2369970E005231AC /* PanModalAnimator.h */,
+				40D9D6E02369970E005231AC /* PanModalAnimator.m */,
+				40C9229D23697CB30042C956 /* PanModalPresentationAnimator.h */,
+				40C9229E23697CB30042C956 /* PanModalPresentationAnimator.m */,
+			);
+			path = Animator;
+			sourceTree = "<group>";
+		};
+		40C922A023697E500042C956 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40C922A123697E620042C956 /* PanModalPresentationController.h */,
+				40C922A223697E620042C956 /* PanModalPresentationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		40C922A423697E6C0042C956 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				40D9D6EC236A75A5005231AC /* PanModalPresentationDelegateImp.h */,
+				40D9D6ED236A75A5005231AC /* PanModalPresentationDelegateImp.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		40C922A6236982320042C956 /* Presentable */ = {
+			isa = PBXGroup;
+			children = (
+				40C922A8236986940042C956 /* PanModalHeight.h */,
+				40C922A7236985A10042C956 /* PanModalPresentable.h */,
+				40D9D6FF236A98E2005231AC /* UIViewController+Defaults.h */,
+				40D9D700236A98E2005231AC /* UIViewController+Defaults.m */,
+				40D9D6E2236997B8005231AC /* UIViewController+PanModalPresentable.h */,
+				40D9D6E3236997B8005231AC /* UIViewController+PanModalPresentable.m */,
+				40D9D6EF236A7BF7005231AC /* UIViewController+LayoutHelper.h */,
+				40D9D6F0236A7BF7005231AC /* UIViewController+LayoutHelper.m */,
+			);
+			path = Presentable;
+			sourceTree = "<group>";
+		};
+		40C922A9236991670042C956 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40C922AA2369916B0042C956 /* DimmingView.h */,
+				40C922AB2369916B0042C956 /* DimmingView.m */,
+				40D9D6DC23699589005231AC /* PanContainerView.h */,
+				40D9D6DD23699589005231AC /* PanContainerView.m */,
+				40D9D6E52369C160005231AC /* UIView+panContainerView.h */,
+				40D9D6E62369C160005231AC /* UIView+panContainerView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40D9D6E82369C41D005231AC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				40D9D6E9236A739C005231AC /* UIViewController+PanModalPresenter.h */,
+				40D9D6EA236A739C005231AC /* UIViewController+PanModalPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		40D9D6F2236A8A4D005231AC /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				40D9D703236AAAE8005231AC /* User Group */,
+				40D9D6F6236A8A64005231AC /* Base */,
+				40D9D6F8236A8B4F005231AC /* Full Screen */,
+				40D9D702236AAAC9005231AC /* Alert */,
+				40D9D6FC236A8DC9005231AC /* SampleViewController.h */,
+				40D9D6FD236A8DC9005231AC /* SampleViewController.m */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		40D9D6F6236A8A64005231AC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				40D9D6F3236A8A5E005231AC /* BaseViewController.h */,
+				40D9D6F4236A8A5E005231AC /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		40D9D6F8236A8B4F005231AC /* Full Screen */ = {
+			isa = PBXGroup;
+			children = (
+				40D9D6F9236A8B6A005231AC /* FullScreenNavController.h */,
+				40D9D6FA236A8B6A005231AC /* FullScreenNavController.m */,
+			);
+			path = "Full Screen";
+			sourceTree = "<group>";
+		};
+		40D9D702236AAAC9005231AC /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		40D9D703236AAAE8005231AC /* User Group */ = {
+			isa = PBXGroup;
+			children = (
+				40D9D704236AAB0C005231AC /* UserGroupViewController.h */,
+				40D9D705236AAB0C005231AC /* UserGroupViewController.m */,
+			);
+			path = "User Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4070CA7E2360183600A13B31 /* PanModalOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4070CAAE2360183800A13B31 /* Build configuration list for PBXNativeTarget "PanModalOC" */;
+			buildPhases = (
+				4070CA7B2360183600A13B31 /* Sources */,
+				4070CA7C2360183600A13B31 /* Frameworks */,
+				4070CA7D2360183600A13B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PanModalOC;
+			productName = PulleyOCDemo;
+			productReference = 4070CA7F2360183600A13B31 /* PanModalOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4070CA992360183800A13B31 /* PanModalOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4070CAB12360183800A13B31 /* Build configuration list for PBXNativeTarget "PanModalOCTests" */;
+			buildPhases = (
+				4070CA962360183800A13B31 /* Sources */,
+				4070CA972360183800A13B31 /* Frameworks */,
+				4070CA982360183800A13B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4070CA9C2360183800A13B31 /* PBXTargetDependency */,
+			);
+			name = PanModalOCTests;
+			productName = PulleyOCDemoTests;
+			productReference = 4070CA9A2360183800A13B31 /* PanModalOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4070CAA42360183800A13B31 /* PanModalOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4070CAB42360183800A13B31 /* Build configuration list for PBXNativeTarget "PanModalOCUITests" */;
+			buildPhases = (
+				4070CAA12360183800A13B31 /* Sources */,
+				4070CAA22360183800A13B31 /* Frameworks */,
+				4070CAA32360183800A13B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4070CAA72360183800A13B31 /* PBXTargetDependency */,
+			);
+			name = PanModalOCUITests;
+			productName = PulleyOCDemoUITests;
+			productReference = 4070CAA52360183800A13B31 /* PanModalOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4070CA772360183600A13B31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "张英杰";
+				TargetAttributes = {
+					4070CA7E2360183600A13B31 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					4070CA992360183800A13B31 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 4070CA7E2360183600A13B31;
+					};
+					4070CAA42360183800A13B31 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 4070CA7E2360183600A13B31;
+					};
+				};
+			};
+			buildConfigurationList = 4070CA7A2360183600A13B31 /* Build configuration list for PBXProject "PanModalOC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4070CA762360183600A13B31;
+			productRefGroup = 4070CA802360183600A13B31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4070CA7E2360183600A13B31 /* PanModalOC */,
+				4070CA992360183800A13B31 /* PanModalOCTests */,
+				4070CAA42360183800A13B31 /* PanModalOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4070CA7D2360183600A13B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4070CA922360183800A13B31 /* LaunchScreen.storyboard in Resources */,
+				4070CA8F2360183800A13B31 /* Assets.xcassets in Resources */,
+				4070CA8D2360183600A13B31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4070CA982360183800A13B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4070CAA32360183800A13B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4070CA7B2360183600A13B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D9D701236A98E2005231AC /* UIViewController+Defaults.m in Sources */,
+				40D9D6F1236A7BF7005231AC /* UIViewController+LayoutHelper.m in Sources */,
+				40D9D6E4236997B8005231AC /* UIViewController+PanModalPresentable.m in Sources */,
+				40D9D706236AAB0C005231AC /* UserGroupViewController.m in Sources */,
+				40D9D6FB236A8B6A005231AC /* FullScreenNavController.m in Sources */,
+				40D9D6E12369970E005231AC /* PanModalAnimator.m in Sources */,
+				40D9D6F7236A8A9C005231AC /* BaseViewController.m in Sources */,
+				40C9229F23697CB30042C956 /* PanModalPresentationAnimator.m in Sources */,
+				40D9D6EE236A75A5005231AC /* PanModalPresentationDelegateImp.m in Sources */,
+				4070CA8A2360183600A13B31 /* ViewController.m in Sources */,
+				40D9D6EB236A739C005231AC /* UIViewController+PanModalPresenter.m in Sources */,
+				40D9D6DE23699589005231AC /* PanContainerView.m in Sources */,
+				40D9D6FE236A8DC9005231AC /* SampleViewController.m in Sources */,
+				40D9D6E72369C160005231AC /* UIView+panContainerView.m in Sources */,
+				4070CA842360183600A13B31 /* AppDelegate.m in Sources */,
+				4070CA952360183800A13B31 /* main.m in Sources */,
+				40C922A323697E620042C956 /* PanModalPresentationController.m in Sources */,
+				40D9D6DB236994C5005231AC /* DimmingView.m in Sources */,
+				4070CA872360183600A13B31 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4070CA962360183800A13B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4070CA9F2360183800A13B31 /* PulleyOCDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4070CAA12360183800A13B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4070CAAA2360183800A13B31 /* PulleyOCDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4070CA9C2360183800A13B31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4070CA7E2360183600A13B31 /* PanModalOC */;
+			targetProxy = 4070CA9B2360183800A13B31 /* PBXContainerItemProxy */;
+		};
+		4070CAA72360183800A13B31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4070CA7E2360183600A13B31 /* PanModalOC */;
+			targetProxy = 4070CAA62360183800A13B31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4070CA8B2360183600A13B31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4070CA8C2360183600A13B31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4070CA902360183800A13B31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4070CA912360183800A13B31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4070CAAC2360183800A13B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4070CAAD2360183800A13B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4070CAAF2360183800A13B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUW3H8NBU9;
+				INFOPLIST_FILE = PanModalOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyj.PanModalOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4070CAB02360183800A13B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUW3H8NBU9;
+				INFOPLIST_FILE = PanModalOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyj.PanModalOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4070CAB22360183800A13B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HUW3H8NBU9;
+				INFOPLIST_FILE = PulleyOCDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hha.PulleyOCDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanModalOC.app/PanModalOC";
+			};
+			name = Debug;
+		};
+		4070CAB32360183800A13B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HUW3H8NBU9;
+				INFOPLIST_FILE = PulleyOCDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hha.PulleyOCDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanModalOC.app/PanModalOC";
+			};
+			name = Release;
+		};
+		4070CAB52360183800A13B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HUW3H8NBU9;
+				INFOPLIST_FILE = PulleyOCDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hha.PulleyOCDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PulleyOCDemo;
+			};
+			name = Debug;
+		};
+		4070CAB62360183800A13B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HUW3H8NBU9;
+				INFOPLIST_FILE = PulleyOCDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hha.PulleyOCDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PulleyOCDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4070CA7A2360183600A13B31 /* Build configuration list for PBXProject "PanModalOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4070CAAC2360183800A13B31 /* Debug */,
+				4070CAAD2360183800A13B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4070CAAE2360183800A13B31 /* Build configuration list for PBXNativeTarget "PanModalOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4070CAAF2360183800A13B31 /* Debug */,
+				4070CAB02360183800A13B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4070CAB12360183800A13B31 /* Build configuration list for PBXNativeTarget "PanModalOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4070CAB22360183800A13B31 /* Debug */,
+				4070CAB32360183800A13B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4070CAB42360183800A13B31 /* Build configuration list for PBXNativeTarget "PanModalOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4070CAB52360183800A13B31 /* Debug */,
+				4070CAB62360183800A13B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4070CA772360183600A13B31 /* Project object */;
+}
